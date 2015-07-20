@@ -12,6 +12,8 @@ namespace GitHub_POC.Account
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
+            int a = 1;
             RegisterHyperLink.NavigateUrl = "Register";
             OpenAuthLogin.ReturnUrl = Request.QueryString["ReturnUrl"];
 
