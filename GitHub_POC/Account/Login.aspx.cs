@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
 using System.Data.SqlClient;
+using System.Web.UI.WebControls;
 
 namespace GitHub_POC.Account
 {
@@ -12,8 +12,7 @@ namespace GitHub_POC.Account
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
-            int a = 1;
+            int a = 10000;
             RegisterHyperLink.NavigateUrl = "Register";
             OpenAuthLogin.ReturnUrl = Request.QueryString["ReturnUrl"];
 
